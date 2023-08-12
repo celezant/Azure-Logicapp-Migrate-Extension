@@ -6,6 +6,12 @@ This Azure DevOps Extension simplifies the process of migrating Logic Apps Workf
 ## Pre-requisites
 1. An Active Service Principle with appropriate permissions for accessing Azure Logic Apps both Source and the Destination Logic Apps.
 
+## Supported Platforms
+```
+This task is compatible with Windows OS agents only. 
+```
+Please ensure that you have Windows agents available in your Azure DevOps environment before incorporating this task into your pipelines.
+
 ## Configure the Task
 To use this extension, follow these steps:
 
@@ -14,7 +20,7 @@ To use this extension, follow these steps:
 3. Provide the necessary details as outlined in the table below.
 
 ## Extension Overview
-This extension automates and facilitates the migration of Logic Apps between different environments within Azure.
+This extension automates and facilitates the migration of Logic Apps Workflows between different environments within Azure.
 
 ## Task Usage
 Configure the task using the following options:
@@ -31,6 +37,7 @@ Configure the task using the following options:
 
 ## Notes
 Ensure that the necessary permissions and access are granted for the Logic App migration process.
+It only supports Windows OS Agent.
 
 ## Highlighted Features
 1. Simplified Logic App migration.
